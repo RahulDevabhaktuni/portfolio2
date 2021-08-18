@@ -1,0 +1,48 @@
+h1 {
+    color: #a52a2a;
+    border: solid;
+    padding: 90px;
+    
+}
+p{
+    color:rgb(0, 132, 255)
+
+}
+.asdf{
+    background-color: #ff0000;
+    display:flex;
+    justify-content: space-between ;
+}
+
+.qwertyuiop{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+
+.asdaf a{
+    margin-left: 40px;
+}
+
+a:link{
+    color: cyan
+}
+
+a:visited{
+    color:yellow
+}
+.qwert{
+    position: relative
+}
+
+.qwert p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.qwert:hover p{
+    opacity:1
+}
